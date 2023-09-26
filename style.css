@@ -4,13 +4,13 @@
     padding: 0;
 }
 body{
-    background-color: "#f5f5f5";
+    background-color: #f5f5f5;
     font-family: 'Roboto', sans-serif;
 }
 footer{
-    margin-top: 40px;
-    margin-left: 100px;
-    margin-right: 50px;
+    margin-top: 20px;
+    margin-left: 130px;
+    margin-right: 40px;
     display: flex;
     flex-direction: column;
 }
@@ -55,8 +55,10 @@ footer{
 }
 .menu{
     display: flex;
-    width: 35vw;
+    width: 19vw;
     justify-content: space-around;
+    font-size: 5px;
+    color: black;
 }
 #section-3 div p{
     font-size: 14px;
@@ -74,7 +76,7 @@ p{
 }
 #icon{
     display: flex;
-    width: 150px;
+    width: 200px;
     justify-content: space-between;
 }
 #icon div{
@@ -87,14 +89,15 @@ p{
     align-items: center;
     border-color: rgb(201, 201, 201);
 }
-#last{
-    display: flex;
-    justify-content: space-between;
+#last p{
+    font-size: 12px;
+    /* justify-content: space-between; */
 
 }
 #last img{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
+    margin-right: -20px;
 }
 #section-2{
     display: flex;
@@ -106,14 +109,15 @@ p{
 #section-2 button{
     margin-left: 5px;
     margin-right: 5px;
-    width: 190px;
+    width: 170px;
     height: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 3px solid black;
+    border: 1px solid black;
     border-radius: 20px;
     background-color: transparent;
+    padding: 7px;
     
 }
 #section-2 button p{
@@ -130,7 +134,7 @@ p{
     margin-top: -30px;
 }
 
-#first .button button{
+#first .button{
     width: 120px;
     height: 40px;
     border-radius: 20px;
@@ -141,7 +145,7 @@ p{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-#second .button button{
+#second .button{
     width: 90px;
     height: 40px;
     border-radius: 20px;
@@ -164,4 +168,21 @@ p:hover{
 }
 hr{
     opacity: 0.5;
+}
+#first>div>.button:hover{
+    background-color: rgb(57, 57, 57);
+}
+#second>div>.button:hover{
+    background-color: rgb(57, 57, 57);
+}
+#last:hover{
+    outline: 1px solid black;
+}
+#section-3 div p{
+    text-decoration: none;
+    font-size: 13px;
+    
+}
+#section-3 .menu p{
+    color: black;
 }
