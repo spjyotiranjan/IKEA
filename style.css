@@ -162,12 +162,13 @@ p{
 }
 p:hover{
     text-decoration: underline;
+    cursor: grab;
 }
 #icon>div:hover{
     border-color: rgb(134, 134, 134);
 }
 hr{
-    opacity: 0.5;
+    opacity: 0.3;
 }
 #first>div>.button:hover{
     background-color: rgb(57, 57, 57);
@@ -185,4 +186,8 @@ hr{
 }
 #section-3 .menu p{
     color: black;
+
+}
+#part4{
+    margin-right: -100px;
 }
